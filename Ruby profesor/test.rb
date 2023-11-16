@@ -54,7 +54,7 @@ class SheetTable
   def rows
     @data.rows.drop(1)
   end
-
+#a
   def +(other)
     raise 'Zaglavlja nisu ista' unless zaglavlja == other.zaglavlja
 
